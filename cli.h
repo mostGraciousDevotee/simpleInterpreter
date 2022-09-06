@@ -1,6 +1,10 @@
 #ifndef CLI_H_INCLUDED
 #define CLI_H_INCLUDED
 
+// INPUT FUNCTION
+
+int getcmd(char *[], int);
+
 // BASIC COMMAND
 
 void echo(int, char *[]);
