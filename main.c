@@ -25,6 +25,11 @@ int main(void)
       break;
     }
     
+    else if (strcmp(cmd_argv[0], "finds") == 0)
+    {
+      finds(cmd_argc, cmd_argv);
+    }
+    
     else if (strcmp(cmd_argv[0], "help") == 0)
     {
       help(cmd_argc, cmd_argv);
