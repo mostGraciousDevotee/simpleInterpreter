@@ -1,4 +1,3 @@
-#include <stdio.h>
 #define ALLOCSSIZE 1024
 
 static char allocbuf[ALLOCSIZE];
